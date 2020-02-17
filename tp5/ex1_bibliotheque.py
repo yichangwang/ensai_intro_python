@@ -114,6 +114,7 @@ class Livrotheque(Bibliotheque):
 
 
 if __name__ == '__main__':
+    print(help(Roman))  # Method resolution order
     print(Roman.prixLitterairesValides)
     rom = Roman(1001, "Roman numéro 1", "Hugo", 150)
     man = Manuel (2001, "Manuel numéro 1", "Proust", 200, "1ère")
