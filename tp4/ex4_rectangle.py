@@ -4,6 +4,7 @@ from ex3_point import Point
 
 # un article sur deep copy et shallow copy
 # https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/
+# https://medium.com/@thawsitt/assignment-vs-shallow-copy-vs-deep-copy-in-python-f70c2f0ebd86
 
 class Rectangle:
     
