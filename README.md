@@ -41,7 +41,7 @@
 instance = MyClass()  # there's the __eq__ method in MyClass
 another_instance = MyClass()
 # call
-MyClass.my_method(instance, another_instance)
+MyClass.__eq__(instance, another_instance)
 instance.__eq__(another_instance)
 instance == another_instance  # overload the == operator with __eq__ method
 ```
