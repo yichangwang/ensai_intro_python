@@ -31,9 +31,9 @@ class Roman(Livre):
         self.prixLitteraires.append(prix)
         return True
 
-        def __str__ (self):
-            return " => ROMAN:\n" + Livre.__str__(self) + "\n" + "Prix littéraires: " + \
-            '(' + ','.join(self.prixLitteraires) + ')'
+    def __str__ (self):
+        return " => ROMAN:\n" + Livre.__str__(self) + "\n" + "Prix littéraires: " + \
+        '(' + ','.join(self.prixLitteraires) + ')'
 
 
 class Manuel(Livre):
