@@ -1,0 +1,18 @@
+digraph "classes" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{Bibliotheque|capacite\lliste : list\l|afficher_auteurs()\lafficher_documents()\lajouter(doc)\ldocument(i)\lsupprimer(doc)\l}", shape="record"];
+"1" [label="{Dictionnaire|langue\l|}", shape="record"];
+"2" [label="{Document|num : int\ltitre\l|}", shape="record"];
+"3" [label="{Livre|author\lnb_pages : int\l|}", shape="record"];
+"4" [label="{Livrotheque|\l|ajouter(livre)\l}", shape="record"];
+"5" [label="{Manuel|niveau\l|}", shape="record"];
+"6" [label="{Revue|annee : int\lmois : int\l|}", shape="record"];
+"7" [label="{Roman|prixLitteraires : list\lprixLitterairesValides : set\l|add_prix(prix)\l}", shape="record"];
+"1" -> "2" [arrowhead="empty", arrowtail="none"];
+"3" -> "2" [arrowhead="empty", arrowtail="none"];
+"4" -> "0" [arrowhead="empty", arrowtail="none"];
+"5" -> "3" [arrowhead="empty", arrowtail="none"];
+"6" -> "2" [arrowhead="empty", arrowtail="none"];
+"7" -> "3" [arrowhead="empty", arrowtail="none"];
+}
