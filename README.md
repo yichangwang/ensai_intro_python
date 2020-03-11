@@ -58,7 +58,7 @@ instance.__eq__(another_instance)
 instance == another_instance  # overload the == operator with __eq__ method
 ```
 
-### inheritance, overload, polymorphism
+### inheritance(simple and multiple), overload, polymorphism
 
 - magic method (`__init__`, `__str__`, `__eq__`, `__add__`, etc.)
 
@@ -87,3 +87,5 @@ instance == another_instance  # overload the == operator with __eq__ method
 
 - [`venv`](https://docs.python.org/3/tutorial/venv.html) or [`virtualenv`](https://virtualenv.pypa.io/en/stable/installation.html)
 - use `pylint` (with `graphviz`) to [generate uml graph](./uml_diagrams.rst)
+
+# TODO: add unittest for tp6
