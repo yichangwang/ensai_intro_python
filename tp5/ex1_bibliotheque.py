@@ -155,3 +155,7 @@ if __name__ == '__main__':
     livro.afficher_documents()
     print("\n*** AFFICHAGE DES AUTEURS DE LA LIVROTHEQUE ***")
     livro.afficher_auteurs()
+
+    import pylint
+    # need to run with: $python ex1_bibliotheque.py "biblioteque"
+    pylint.run_pyreverse()
