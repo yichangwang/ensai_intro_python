@@ -1,4 +1,5 @@
-'Demonstrate effective use of super()'
+'''example from https://code.activestate.com/recipes/577720-how-to-use-super-effectively/'''
+'''To Demonstrate effective use of super()'''
 
 import collections
 import logging
